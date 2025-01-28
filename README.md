@@ -115,3 +115,6 @@ WooCommerceAPI.delete('coupons/123')
 ```
 npm test
 ```
+######### To grant permission for accessing WooCommerce products, add the following line to your functions.php file: ####  
+add_filter('woocommerce_rest_check_permissions', '__return_true');
+
